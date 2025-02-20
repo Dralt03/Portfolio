@@ -69,8 +69,8 @@ const AboutSection = () => {
           willChange ? "will-change-opacity" : ""
         }`}
       >
-        I am a passionate UI Engineer who bridges the gap between development
-        and design.{" "}
+        I am a passionate Software Engineer who is ready to bring your ideas to
+        life{" "}
       </span>
       <span
         className={`about-2 leading-tight ${
@@ -78,7 +78,7 @@ const AboutSection = () => {
         }`}
       >
         I take responsibility to craft a good user experience using modern
-        frontend architecture.
+        software development.
       </span>
     </h1>
   );
