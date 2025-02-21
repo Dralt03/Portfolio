@@ -23,10 +23,7 @@ export const MENULINKS = [
     name: "Skills",
     ref: "skills",
   },
-  {
-    name: "Timeline",
-    ref: "timeline",
-  },
+
   {
     name: "Contact",
     ref: "contact",
@@ -43,6 +40,7 @@ export const TYPED_STRINGS = [
 export const EMAIL = "ayush.singh.xda@gmail.com";
 
 export const SOCIAL_LINKS = {
+  gmail: "https://mail.google.com/mail/?view=cm&to=sharmasaurenb@gmail.com",
   linkedin: "https://www.linkedin.com/in/sauren-sharma",
   github: "https://github.com/Dralt03",
   instagram: "https://www.instagram.com/_s.a.u.r.e.n_/",
@@ -94,7 +92,7 @@ export const PROJECTS: IProject[] = [
     description: "A simple real time chat app where users can login and chat",
     gradient: ["#245B57", "#004741"],
     url: "https://github.com/Dralt03/ChatApp",
-    tech: ["react", "vite", "firebase"],
+    tech: ["react", "firebase"],
   },
   {
     name: "Fake News Analyser",

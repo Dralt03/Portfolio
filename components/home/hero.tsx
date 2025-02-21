@@ -100,6 +100,16 @@ const HeroSection = React.memo(() => {
           }}
           href="/Sauren_Sharma.pdf"
         ></Button>
+        <Button
+          classes="ml-3"
+          type={ButtonTypes.WHITE}
+          name="Let's Talk"
+          href={SOCIAL_LINKS.gmail}
+          otherProps={{
+            target: "_blank",
+            rel: "noreferrer",
+          }}
+        ></Button>
       </div>
     </div>
   );

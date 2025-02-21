@@ -9,6 +9,10 @@ import Image from "next/image";
 import Button, { ButtonTypes } from "./button";
 
 const Footer = () => {
+  const handleClick = () => {
+    return <a href="mailto:sharmasaurenb@gmail.com"></a>;
+  };
+
   const renderSocialIcons = (): React.ReactNode => {
     return Object.keys(SOCIAL_LINKS).map((el: keyof typeof SOCIAL_LINKS) => (
       <a
@@ -38,26 +42,23 @@ const Footer = () => {
             target: "_blank",
             rel: "noreferrer",
           }}
-          href="/Ayush_Resume.pdf"
+          href="/Sauren_Sharma.pdf"
         ></Button>
         <Button
           classes="ml-3"
           type={ButtonTypes.WHITE}
           name="Let's Talk"
-          href={SOCIAL_LINKS.topmate}
+          href={SOCIAL_LINKS.gmail}
           otherProps={{
             target: "_blank",
             rel: "noreferrer",
           }}
         ></Button>
       </div>
-      <h2 className="text-center text-sm sm:text-base mt-8">
-        Designed and Developed with ❤️ by Ayush
-      </h2>
     </>
   );
 
-  const { ref: footerRef } = MENULINKS[4];
+  const { ref: footerRef } = MENULINKS[3];
 
   return (
     <footer
